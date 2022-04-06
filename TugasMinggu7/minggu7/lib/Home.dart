@@ -62,8 +62,7 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
-    showDialog(context: context, builder: (_) => alertDialog);
-  }
+    showDialog(context: context, builder: (_) => alertDialog);}
 
   @override
   Widget build(BuildContext context) {
